@@ -1,4 +1,4 @@
 export interface buttonProps {
-    buttonName: string,
+    buttonName?: string,
     buttonClass?: string
 }

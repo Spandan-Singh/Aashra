@@ -1,9 +1,11 @@
-function Lebel(props: any) {
+import { lebelProps } from "./lebelProps";
+
+function CustomLebel(props: lebelProps) {
     return (
         <p>
-            {props.text}
+            {props.lebelText}
         </p>
     );
 }
 
-export default Lebel;
+export default CustomLebel;

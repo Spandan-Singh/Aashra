@@ -4,9 +4,9 @@ import { buttonProps } from "./buttonProps";
 
 function CustomButton(props: buttonProps) {
     return (
-        <button className={`btn btn-flat ${props.buttonClass}`} type="button">
+        <button className={`d-flex btn btn-flat ${props.buttonClass}`} type="button" title={props.buttonName}>
             <FontAwesomeIcon icon={faHeart} beat />
-            <p className="">{props.buttonName}</p>
+            <p className="ms-2">{props.buttonName}</p>
         </button>
     );
 }
